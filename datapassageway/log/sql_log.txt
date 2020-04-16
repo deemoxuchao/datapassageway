@@ -1,0 +1,14 @@
+INFO get views 2020-04-16 03:13:13,475 sql:update passageway_importexport set fqty='0' where id = 15
+INFO get views 2020-04-16 03:17:56,807 sql:select * from passageway_importexport where id =100
+INFO get views 2020-04-16 03:17:57,965 sql:select * from passageway_importexport where id =100,查询失败
+INFO get views 2020-04-16 03:18:34,257 sql:select * from passageway_importexport
+INFO get views 2020-04-16 03:18:35,303 sql:select * from passageway_importexport,查询成功
+INFO get views 2020-04-16 03:18:51,747 sql:insert into passageway_importexport (fagentnum, fqty) values (3, 3)
+INFO get views 2020-04-16 03:18:51,749 sql:insert into passageway_importexport (fagentnum, fqty) values (3, 3),执行失败失败，只允许select和update！
+INFO get views 2020-04-16 03:18:59,217 sql:update passageway_importexport set fqty='0' where id = 15
+INFO get views 2020-04-16 03:19:00,241 sql:update passageway_importexport set fqty='0' where id = 15,插入成功，影响1行
+INFO get views 2020-04-16 11:20:37,279 sql:update passageway_importexport set fqty='0' where id = 15
+INFO get views 2020-04-16 11:21:16,304 sql:update passageway_importexport set fqty='0' where id = 15
+INFO get views 2020-04-16 11:21:17,511 sql:update passageway_importexport set fqty='0' where id = 15,插入成功，影响1行
+INFO get views 2020-04-16 11:25:25,120 sql:select * from passageway_importexport
+INFO get views 2020-04-16 11:25:26,190 sql:select * from passageway_importexport,查询成功
